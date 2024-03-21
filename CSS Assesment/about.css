@@ -1,0 +1,231 @@
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-color:gray;
+    color: white;
+    
+}
+html{
+    background-color: gray;
+}
+
+
+/* Header */
+.head1{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding-top: 10px;
+    
+
+
+}
+.headerul,.navbar a{
+    display: flex;
+    /* justify-content:end; */
+    gap: 50px;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    padding-right: 15px;
+}
+h3{
+    color: white;
+    margin-left: 20px;
+}
+.navbar a:hover,a:focus{
+    transition: 0.25s;
+    background:orange;
+    color:black;
+}
+
+
+/* Body */
+
+.heading1about{
+    padding-top: 80px;
+}
+.headget{
+    letter-spacing: 4px;
+}
+.headabout{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.aboutpara{
+    padding-top: 20px;
+    padding-left: 20px;
+    line-height: 40px;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.ridereadyappsec,h2{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 40;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ridereadyapppara{
+    padding-top: 20px;
+    padding-left: 20px;
+    line-height:40px ;
+    font-size: 25px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ridereadyappbutton{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 190px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: orange;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black, 0 0 60px black;
+}
+.anchor{
+    text-decoration: none;
+    background-color:orange;
+
+}
+.openmobilitysec,h2{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.openmobilitypara{
+    padding-top: 20px;
+    line-height: 40px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.openmobilitybutton{
+    margin-top: 10px;
+    margin-top: 30px;
+    width: 190px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color:orange;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black, 0 0 60px black;
+}
+.ourvisionsec,h2{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ourvisionpara{
+    padding-top: 20px;
+    line-height: 40px;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.ourvisionbutton{
+    margin-top: 10px;
+    margin-top: 30px;
+    width: 190px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: orange;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black, 0 0 60px black;
+}
+img{
+    padding-top: 20px;
+}
+
+
+/* Footer */
+
+
+.footer{
+    background-color:gray;
+    padding: 70px 0;
+    margin-top: 20px;
+
+}
+.container{
+    max-width:1170px ;
+    background-color:gray;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px ;
+
+}
+.footer-col h4{
+    font-size: 18px;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width:50px ;
+
+
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transform: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+
+}
+footer span{
+    color:#bbbbbb;
+}
+@media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+}
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+
+    }
+}
